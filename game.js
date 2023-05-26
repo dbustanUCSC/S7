@@ -68,7 +68,7 @@ class Gameplay extends Phaser.Scene {
             this.tweens.add({
                 targets: this.player,
                 alpha: 0,
-                duration: 1000,
+                duration: 50,
                 onComplete: () => {
                     this.player.visible = false;
                     this.player.destroy();
