@@ -6,7 +6,6 @@ class Gameplay extends Phaser.Scene {
     preload(){
         this.load.image('slug','./illustration.png')
         this.load.image('player', './player.png')
-        this.load.image('snail','./snail.png')
         this.load.image('background', './background.png')
     }
     create(){
